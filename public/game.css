@@ -32,3 +32,29 @@ html {
 	font-family: monospace;
 	cursor: pointer;
 }
+
+.gamebutton,
+#butInstall {
+	border: 2px solid #2946f6;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: ease-in 0.2s all;
+}
+.gamebutton:hover,
+#butInstall:hover {
+	background: #2946f6;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+#marcador {
+	background-color: #fff;
+	list-style-type: none;
+	padding: 1em;
+	margin-top: 3em;
+	margin-left: 0.5em;
+	width: 15%;
+	border: 2px solid #2946f6;
+	border-radius: 5%;
+	font: normal 1.35em monospace;
+}
